@@ -186,6 +186,7 @@ export const Game = () => {
     const gameDef = useGameDef()
     return <UserGuessContext.Provider value={{g1, g2, g3, g4}}>
         <div>
+            <div>Select 4 words that correspond with the given hints, and enter them into the colored boxes</div>
             <VFlex style={{backgroundColor: 'white', padding: "40px"}}>
                 <HFlex>
                     <CellH1></CellH1>
