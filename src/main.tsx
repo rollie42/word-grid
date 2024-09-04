@@ -35,7 +35,7 @@ const indexRoute = createRoute({
 })
 
 const routeTree = rootRoute.addChildren([indexRoute])
-const router = createRouter({ routeTree })
+const router = createRouter({ routeTree, basepath: "word-grid" })
 
 function App() {
   return <RouterProvider router={router} />
